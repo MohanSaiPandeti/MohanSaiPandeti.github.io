@@ -1,7 +1,7 @@
 # MohanSaiPandeti.github.io
 My Portfolio Website
 
-## [🌐 View Portfolio](https://mohansaipandeti.github.io)
+## [🌐 Click to View Portfolio](https://mohansaipandeti.github.io)
 
 **Pandeti Mohan Sai**  
 Computer Science & Engineering(Data Science) Student
