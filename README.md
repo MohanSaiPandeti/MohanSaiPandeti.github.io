@@ -4,8 +4,8 @@ My Portfolio Website
 
 ## [🌐 View Portfolio](https://mohansaipandeti.github.io)
 
-**Mohan Sai Pandeti**  
-Data Analytics & Engineering Student
+**Pandeti Mohan Sai**  
+Computer Science(Data Science) Student
 
 📧 pandetimohansai@gmail.com  
 💼 [LinkedIn](https://linkedin.com/in/mohansaipandeti)  
