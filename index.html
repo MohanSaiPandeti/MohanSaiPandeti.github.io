@@ -149,6 +149,19 @@
             margin-bottom: 2rem;
         }
 
+        /* Highlight important terms */
+        .highlight {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 600;
+        }
+
+        .highlight-number {
+            color: #667eea;
+            font-weight: 700;
+        }
+
         .education-card {
             background: #f8f9fa;
             padding: 2rem;
@@ -480,13 +493,13 @@
     <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
-            <p class="about-text">I'm a passionate Computer Science student specializing in Data Science at Mohan Babu University with a strong CGPA of 9.07/10. I thrive on solving real-world problems through data analysis, machine learning, and automation. My experience spans from building AI-powered applications to conducting comprehensive data analysis on large-scale datasets. I recently completed a Product Internship at GenAxle.com, where I contributed to improving product quality and user experience. I'm actively seeking opportunities to apply my analytical skills and technical expertise to drive data-driven decision making.</p>
+            <p class="about-text">I'm a passionate <span class="highlight">Computer Science</span> student specializing in <span class="highlight">Data Science</span> at Mohan Babu University with a strong CGPA of <span class="highlight-number">9.07/10</span>. I thrive on solving real-world problems through <span class="highlight">data analysis</span>, <span class="highlight">machine learning</span>, and <span class="highlight">automation</span>. My experience spans from building <span class="highlight">AI-powered applications</span> to conducting comprehensive data analysis on large-scale datasets. I recently completed a <span class="highlight">Product Internship</span> at GenAxle.com, where I contributed to improving product quality and user experience. I'm actively seeking opportunities to apply my analytical skills and technical expertise to drive <span class="highlight">data-driven decision making</span>.</p>
             
             <div class="education-card">
                 <h3>Mohan Babu University</h3>
                 <div class="degree">Bachelor of Technology in Computer Science and Engineering (Data Science)</div>
                 <div class="details">
-                    <span><strong>CGPA:</strong> 9.07/10.0</span>
+                    <span><strong>CGPA:</strong> <span class="highlight-number">9.07/10.0</span></span>
                     <span><strong>Duration:</strong> Aug 2022 – May 2026</span>
                     <span><strong>Location:</strong> Tirupati, Andhra Pradesh</span>
                 </div>
@@ -506,10 +519,10 @@
                 <div class="date">Dec 2025 – Jan 2026</div>
             </div>
             <ul>
-                <li>Tested end-to-end product workflows to identify functional and usability issues across core platform features, improving overall product quality</li>
-                <li>Reported bugs with clear reproduction steps and detailed documentation, enabling 30% faster resolution by engineering team</li>
+                <li>Tested <span class="highlight">end-to-end product workflows</span> to identify functional and usability issues across core platform features, improving overall product quality</li>
+                <li>Reported bugs with clear reproduction steps and detailed documentation, enabling <span class="highlight-number">30% faster</span> resolution by engineering team</li>
                 <li>Collaborated with developers during pre-launch iterations to validate feature behavior and optimize user flows</li>
-                <li>Gained hands-on exposure to product lifecycle workflows in an early-stage startup environment</li>
+                <li>Gained hands-on exposure to <span class="highlight">product lifecycle workflows</span> in an early-stage startup environment</li>
             </ul>
         </div>
     </section>
@@ -522,7 +535,7 @@
                 <div class="project-img">🌿</div>
                 <div class="project-content">
                     <h3>Leaf Doctor – Disease Detection</h3>
-                    <p>Built an end-to-end plant disease detection system using YOLO (v5, v8, v11) achieving 92% accuracy. Integrated GenAI-driven multilingual module to deliver crop-specific pesticide recommendations in 5+ regional languages. Optimized inference pipeline reducing prediction time by 40%.</p>
+                    <p>Built an end-to-end plant disease detection system using <span class="highlight">YOLO (v5, v8, v11)</span> achieving <span class="highlight-number">92% accuracy</span>. Integrated <span class="highlight">GenAI-driven multilingual</span> module to deliver crop-specific pesticide recommendations in <span class="highlight-number">5+ regional languages</span>. Optimized inference pipeline reducing prediction time by <span class="highlight-number">40%</span>.</p>
                     <a href="https://github.com/MohanSaiPandeti" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
             </div>
@@ -530,7 +543,7 @@
                 <div class="project-img">🤖</div>
                 <div class="project-content">
                     <h3>AI Agent for Data Analysis</h3>
-                    <p>Developed automation workflow using n8n and Groq Chat Model to analyze startup funding data from Google Sheets. Implemented webhook-triggered pipeline providing AI-generated insights on top industries and cities. Reduced manual analysis time by 80%.</p>
+                    <p>Developed automation workflow using <span class="highlight">n8n and Groq Chat Model</span> to analyze startup funding data from Google Sheets. Implemented <span class="highlight">webhook-triggered pipeline</span> providing AI-generated insights on top industries and cities. Reduced manual analysis time by <span class="highlight-number">80%</span>.</p>
                     <a href="https://linkedin.com/in/mohansaipandeti" class="project-link" target="_blank">View Demo →</a>
                 </div>
             </div>
@@ -538,7 +551,7 @@
                 <div class="project-img">📊</div>
                 <div class="project-content">
                     <h3>Data Career Insights – EDA</h3>
-                    <p>Conducted comprehensive exploratory data analysis on 231 MB dataset containing 786K tech job listings using Python, pandas & Seaborn. Cleaned and processed 15+ features with 95% data quality. Identified top 10 in-demand skills and salary trends across experience levels.</p>
+                    <p>Conducted comprehensive exploratory data analysis on <span class="highlight-number">231 MB dataset</span> containing <span class="highlight-number">786K tech job listings</span> using <span class="highlight">Python, pandas & Seaborn</span>. Cleaned and processed <span class="highlight-number">15+ features</span> with <span class="highlight-number">95% data quality</span>. Identified top <span class="highlight-number">10 in-demand skills</span> and salary trends across experience levels.</p>
                     <a href="https://github.com/MohanSaiPandeti" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
             </div>
@@ -546,7 +559,7 @@
                 <div class="project-img">💼</div>
                 <div class="project-content">
                     <h3>SQL Data Cleaning & EDA</h3>
-                    <p>Performed advanced data cleaning on layoffs dataset handling NULLs, duplicates, and standardizing date formats. Analyzed layoffs trends by country, industry and company using CTEs, window functions and aggregation queries. Identified 35% increase in tech layoffs during specific quarters.</p>
+                    <p>Performed advanced data cleaning on layoffs dataset handling NULLs, duplicates, and standardizing date formats. Analyzed layoffs trends by country, industry and company using <span class="highlight">CTEs, window functions and aggregation queries</span>. Identified <span class="highlight-number">35% increase</span> in tech layoffs during specific quarters using temporal analysis.</p>
                     <a href="https://github.com/MohanSaiPandeti" class="project-link" target="_blank">View on GitHub →</a>
                 </div>
             </div>
@@ -635,7 +648,7 @@
     <section id="contact">
         <h2>Get In Touch</h2>
         <div class="contact-content">
-            <p>I'm actively seeking opportunities in Data Analytics, Data Engineering, and ML Roles. Let's connect and discuss how I can contribute to your team!</p>
+            <p>I'm actively seeking opportunities in Data Analytics, Data Engineering, and AI/ML roles. Let's connect and discuss how I can contribute to your team!</p>
             <div class="contact-info">
                 <div class="contact-item">
                     📧 pandetimohansai@gmail.com
@@ -650,7 +663,7 @@
             <div class="social-links">
                 <a href="https://linkedin.com/in/mohansaipandeti" target="_blank">LinkedIn</a>
                 <a href="https://github.com/MohanSaiPandeti" target="_blank">GitHub</a>
-                <a href="https://drive.google.com/file/d/1NbIVssYVT_mwvw233FftbXNTbRwpgelP/view?usp=sharing" target="_blank">Resume</a>
+                <a href="MohanSai_Data_Analytics_and_Engineering.pdf" target="_blank">Resume</a>
             </div>
         </div>
     </section>
